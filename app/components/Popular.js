@@ -10,7 +10,6 @@ import {
 
 function LanguagesNav({ selected, onUpdatedLanguage }) {
   const languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python']
-  console.log('hit')
   return (
     <ul className="flex-center">
       {languages.map((language) => (

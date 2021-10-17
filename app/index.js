@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Popular from './components/Popular'
+import Battle from './components/Battle'
+
 import './index.css'
 
 // Component
@@ -13,6 +15,7 @@ class App extends React.Component {
     return (
       <div className="constainer">
         <Popular />
+        <Battle />
       </div>
     )
   }
