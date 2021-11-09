@@ -1,19 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import './index.css'
 import Popular from './components/Popular'
 import Battle from './components/Battle'
-
-import './index.css'
-
-// Component
-// State
-// Lifecycle
-// UI
 
 class App extends React.Component {
   render() {
     return (
-      <div className="constainer">
+      <div className="container">
         <Popular />
         <Battle />
       </div>
@@ -21,9 +15,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(
-  // React Element
-  // Where to render the element to
-  <App />,
-  document.getElementById('app')
-)
+ReactDOM.render(<App />, document.getElementById('app'))
