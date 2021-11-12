@@ -7,7 +7,6 @@ import {
 } from 'react-icons/fa'
 import PropTypes from 'prop-types'
 import Results from './Results'
-import Loading from './Loading'
 
 function Instructions() {
   return (
